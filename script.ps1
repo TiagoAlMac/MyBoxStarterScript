@@ -17,12 +17,8 @@ choco install -y Microsoft-Windows-Subsystem-Linux -source windowsfeatures
 $Packages = 'git',`
             'poshgit',`
             'vscode',`
-            'nodejs',`
             'FiraCode',`
-            'visualstudio2017community',`
-            'hyper',`
-            'firefox',`
-            'sass'
+            'hyper'
 
 #--- Install Packages ---
 ForEach ($PackageName in $Packages)
